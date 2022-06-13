@@ -3,7 +3,6 @@ from discord.ext import commands
 import random
 from random import randint
 import asyncio
-import keep_alive
 
 intents = discord.Intents.all()
 intents.members = True
@@ -144,5 +143,4 @@ async def p(ctx):
   await ctx.message.delete()
   await ctx.send(embed = embed)
 
-keep_alive.keep_alive()
 bot.run(token)
