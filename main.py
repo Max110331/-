@@ -7,7 +7,7 @@ import asyncio
 intents = discord.Intents.all()
 intents.members = True
 
-token = "OTc5NzA0MjExODQ1NTc0NzA3.GVQQ4i.HNi9ZBkSMXXODEiC57cEzzEm_dV433IO43QkdM"
+token = "OTc5NzA0MjExODQ1NTc0NzA3.GBWdL9.AOSp-xLZOZrPVXUva8nEAGmympNL5edkDgjIkI"
 command_prefix = "!", "！"
 bot = commands.Bot(command_prefix = command_prefix, intents = intents)
 bot.remove_command("help")
