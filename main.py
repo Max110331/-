@@ -133,14 +133,4 @@ async def clear_error(ctx, error):
     await asyncio.sleep(10)
     await ctx.message.delete()
 
-@bot.command()
-async def p(ctx):
-  embed = discord.Embed(
-    color = randint(0, 0xffffff),
-    title = "小柴柴",
-    description = "純粹因為無聊，而寫的機器人。\n沒有什麼特別。"
-  )
-  await ctx.message.delete()
-  await ctx.send(embed = embed)
-
 bot.run(token)
